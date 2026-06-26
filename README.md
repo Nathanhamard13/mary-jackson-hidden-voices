@@ -5,15 +5,17 @@ ingénieure de la NASA. Conçue pour être accessible via QR code dans une scén
 du projet **Hidden Voices**.
 
 Site **statique** (HTML / CSS / JavaScript), sans dépendance, sans build.
+Conçu **mobile-first** : la mise en page de base cible le mobile (consultation via QR code),
+le desktop n'est qu'une amélioration progressive.
 
 ## Fichiers principaux
 
 | Fichier | Rôle |
 |---|---|
 | `index.html` | Structure et **contenu texte** de la page (intro, sections, infobox) |
-| `style.css` | Apparence (style sobre type Wikipédia, responsive desktop/mobile) |
+| `style.css` | Apparence mobile-first (style sobre type Wikipédia) |
 | `script.js` | Surlignage de la section active dans le sommaire |
-| `assets/mary-jackson.svg` | **Image placeholder** de l'encadré, à remplacer |
+| `assets/mary-jackson.jpg` | Photo de l'encadré (portrait NASA 1979, **domaine public**) |
 
 ## Où modifier quoi
 
